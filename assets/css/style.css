@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Didact';
+    src: url("../fonts/DidactGothic-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Fjalla';
+    src: url("../fonts/FjallaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'WorksSans-Light';
+    src: url("../fonts/WorkSans-Light.ttf");
+}
+
+header {
+    text-align: center;
+    font-family: 'Didact';
+}
+
+header article p {
+    margin-top: 20px;
+    margin-bottom: 30px; 
+}
+
+header article h1 {
+    display: inline-block;
+    font-size: 100px;
+    line-height: 130px;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    font-family: 'WorkSans-Regular';
+    font-size: 160px;
+    margin-top: 118px;
+    margin-bottom: 118px;
+}
+
+main section article {
+margin-bottom: 180px;
+margin-left: 220px;
+padding-top: 50px;
+}
+
+.bg_dark_one {
+    height: 826px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/portfolio2.jpg");
+    background-position: center;
+    background-size: 120%;
+    padding-bottom: 200px;
+}
+
+.bg_dark_two {
+    height: 826px;
+    background-image: url("../images/portfolio4.jpg");
+    background-position: center;
+    background-size: 120%;
+    padding-bottom: 200px;
+}
+
+.bg_white_one {
+    height: 826px;
+    background-image: url("../images/portfolio3.png");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+
+}
+
+.bg_white_two {
+    height: 826px;
+    background-image: url("../images/portfolio5.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.font_light_20pt {
+    font-family: 'WorkSans-Regular';
+    color: #9E9E9E;
+    font-size: 20px;
+}
+
+.font_dark_20pt {
+    font-family: 'WorkSans-Regular';
+    color: ##666666;
+    font-size: 20px;
+}
+
+.h3_light {
+    font-family: 'Didact';
+    font-size: 112px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-top: 30px; margin-bottom: 30px;
+}
+
+.h3_dark {
+    font-family: 'Didact';
+    font-size: 112px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 30px; margin-bottom: 30px;
+}
+
+.button_white {
+    display: inline-block;
+    font-family: 'Fjalla';
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+/* .button_white:hover {
+    background-color: whitesmoke;
+    border: whitesmoke;
+    color: black;
+} */
+
+.bg_dark_one a:hover {
+    background-color: whitesmoke;
+    color: black;
+    opacity: 1.0;
+}
+
+.bg_dark_one a:hover + .big_number_odd {
+    color: whitesmoke;
+}
+
+.bg_dark_two a:hover {
+    background-color: whitesmoke;
+    color: black;
+    opacity: 1.0;
+}
+
+.bg_dark_two a:hover + .big_number_odd {
+    color: whitesmoke;
+}
+
+
+.button_black {
+    display: inline-block;
+    font-family: 'Fjalla';
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.bg_white_one a:hover {
+    background-color: black;
+    color: whitesmoke;
+    opacity: 1.0;
+}
+
+.bg_white_one a:hover + .big_number_even {
+    color: black;
+}
+
+.bg_white_two a:hover {
+    background-color: black;
+    color: whitesmoke;
+    opacity: 1.0;
+}
+
+.bg_white_two a:hover + .big_number_even {
+    color: black;
+}
+
+.more {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'WorkSans-Regular';
+    padding-bottom: 100px;
+}
+
+.more h1 {
+    font-size: 180px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.more p{
+    font-size: 22px;
+    line-height: 38px;
+    color:#666666;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 640px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+
+.more a {
+    font-size: 60px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 640px;
+}
+
+.contact {
+    width: 700px;
+    margin: 100px auto 260px auto; 
+}
+
+.contact a {
+    display: inline-block;
+    padding-bottom: 90px;
+    font-family: 'Didact';
+    text-align: center;
+    font-size: 160px;
+    color: black;
+    text-decoration: none;
+    line-height: 210px; 
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.big_number_odd {
+    font-family: 'Fjalla';
+    font-size: 165px;
+    text-align: right;
+    color:#9E9E9E;
+    margin: 150px 120px 0 0;
+}
+
+.big_number_even {
+    font-family: 'Fjalla';
+    font-size: 165px;
+    text-align: right;
+    color: #666666;
+    margin: 150px 120px 0 0;
+}
+
